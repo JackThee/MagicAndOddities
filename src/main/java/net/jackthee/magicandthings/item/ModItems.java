@@ -20,7 +20,7 @@ public class ModItems {
 
 
     private static Item RegisterItem(String Name,Item item){
-        return Registry.register(Registries.ITEM,new Identifier(MagicAndThings.MOD_ID,name),item);
+        return Registry.register(Registries.ITEM,new Identifier(MagicAndThings.MOD_ID,Name),item);
     }
 
     public static void registerModItems(){
