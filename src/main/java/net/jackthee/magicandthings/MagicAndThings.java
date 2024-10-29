@@ -2,6 +2,7 @@ package net.jackthee.magicandthings;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jackthee.magicandthings.item.ModItemGroups;
 import net.jackthee.magicandthings.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +15,7 @@ public class MagicAndThings implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.RegisterItemGroups();
 		ModItems.registerModItems();
 	}
 }
