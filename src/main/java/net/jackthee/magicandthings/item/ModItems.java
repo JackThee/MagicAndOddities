@@ -13,9 +13,11 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item RUBY = RegisterItem("ruby",new Item(new FabricItemSettings()));
+    public static final Item RAW_RUBY = RegisterItem("raw_ruby",new Item(new FabricItemSettings()));
 
     private static void AddItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
+        entries.add(RAW_RUBY);
     }
 
 
