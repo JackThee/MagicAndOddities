@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "magicandthings",
+	"version": "${version}",
+	"name": "Magic And Things",
+	"description": "This is a mod about magic and things",
+	"authors": [
+		"Jack_Thee"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/magicandthings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jackthee.magicandthings.MagicAndThings"
+		],"client": [
+			"net.jackthee.magicandthings.MagicAndThingsClient"
+		],
+		"fabric-datagen": [
+			"net.jackthee.magicandthings.MagicAndThingsDataGenerator"
+		]
+	},
+	"mixins": [
+		"magicandthings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
