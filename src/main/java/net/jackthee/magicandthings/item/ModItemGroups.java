@@ -22,6 +22,7 @@ public class ModItemGroups {
                     entries.add(ModItems.COAL_COKE);
 
                     entries.add(ModItems.JEWEL_FINDER);
+                    entries.add(ModItems.RUBY_STAFF);
 
                     entries.add(ModBlocks.RUBY_BLOCK);
                     entries.add(ModBlocks.RAW_RUBY_BLOCK);
