@@ -1,0 +1,7 @@
+// 1.20.1	2024-10-30T13:21:30.04795	Magic And Things/Tags for minecraft:block
+49f07381e422c195e4836fe643ca844859ff3eac data\minecraft\tags\blocks\mineable\pickaxe.json
+9b64e48c9862efd98c20f4e7da3620465eef801d data\minecraft\tags\blocks\needs_diamond_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
+556f595a332cd57123af15e9070416ebeb91c6d4 data\magicandthings\tags\blocks\jewel_ores.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json

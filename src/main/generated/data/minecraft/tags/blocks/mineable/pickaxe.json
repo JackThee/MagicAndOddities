@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "magicandthings:cinnabar_ore",
+    "magicandthings:deepslate_cinnabar_ore",
+    "magicandthings:ruby_block",
+    "magicandthings:raw_ruby_block"
+  ]
+}
