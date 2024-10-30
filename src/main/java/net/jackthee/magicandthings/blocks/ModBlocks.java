@@ -20,7 +20,7 @@ public class ModBlocks {
 
     private static Block RegisterBlock(String Name,Block Block){
         RegisterBlockItem(Name,Block);
-        return Registry.register(Registries.BLOCK,new Identifier(MagicAndThings.MOD_ID,Name),Block)
+        return Registry.register(Registries.BLOCK,new Identifier(MagicAndThings.MOD_ID,Name),Block);
     }
 
     private static Item RegisterBlockItem(String Name, Block Block){
