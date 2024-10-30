@@ -4,6 +4,15 @@
     "magicandthings:raw_ruby_block",
     "magicandthings:ruby_block",
     "magicandthings:cinnabar_ore",
-    "magicandthings:deepslate_cinnabar_ore"
+    "magicandthings:deepslate_cinnabar_ore",
+    "magicandthings:ruby_wall",
+    "magicandthings:ruby_fence",
+    "magicandthings:ruby_fence_gate",
+    "magicandthings:ruby_door",
+    "magicandthings:ruby_trapdoor",
+    "magicandthings:ruby_button",
+    "magicandthings:ruby_pressure_plate",
+    "magicandthings:ruby_slab",
+    "magicandthings:ruby_stairs"
   ]
 }

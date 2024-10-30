@@ -11,7 +11,15 @@
   "block.magicandthings.raw_ruby_block": "Block Of Raw Ruby",
   "block.magicandthings.deepslate_cinnabar_ore": "Deepslate Cinnabar Ore",
   "block.magicandthings.cinnabar_ore": "Cinnabar Ore",
-  "block.magicandthings.sound_block": "Sound Block",
+  "block.magicandthings.ruby_stairs": "Ruby Stairs",
+  "block.magicandthings.ruby_slab": "Ruby Slab",
+  "block.magicandthings.ruby_button": "Ruby Button",
+  "block.magicandthings.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.magicandthings.ruby_fence": "Ruby Fence",
+  "block.magicandthings.ruby_fence_gate": "Ruby Fence Gate",
+  "block.magicandthings.ruby_wall": "Ruby Wall",
+  "block.magicandthings.ruby_door": "Ruby Door",
+  "block.magicandthings.ruby_trapdoor": "Ruby Trapdoor",
 
   "tooltip.magicandthings.jewel_finder": "Finds jewels deep under ground."
 

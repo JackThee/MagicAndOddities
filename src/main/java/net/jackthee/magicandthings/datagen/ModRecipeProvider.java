@@ -39,5 +39,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.COAL_COKE),conditionsFromItem(ModItems.COAL_COKE))
                 .criterion(hasItem(Items.COAL_BLOCK),conditionsFromItem(Items.COAL_BLOCK))
                 .offerTo(consumer,new Identifier(getRecipeName(ModItems.COAL_COKE)));
+        
     }
 }

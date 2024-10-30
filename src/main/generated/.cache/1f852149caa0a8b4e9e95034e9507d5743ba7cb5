@@ -1,6 +1,9 @@
-// 1.20.1	2024-10-30T13:21:30.04795	Magic And Things/Tags for minecraft:block
-49f07381e422c195e4836fe643ca844859ff3eac data\minecraft\tags\blocks\mineable\pickaxe.json
-9b64e48c9862efd98c20f4e7da3620465eef801d data\minecraft\tags\blocks\needs_diamond_tool.json
+// 1.20.1	2024-10-30T14:12:19.9314571	Magic And Things/Tags for minecraft:block
+35f193c8af5e6a1280fef1042208101b0d4b3f5b data\minecraft\tags\blocks\mineable\pickaxe.json
+a8fab3d5b0982819b2435a544ef3e05e1aec70fc data\minecraft\tags\blocks\fence_gates.json
+965c8d0b36e9ca12b88cbf39a19a986259a103e6 data\minecraft\tags\blocks\needs_diamond_tool.json
+ffb637ce782a90c148575673f0ed3794ff85a13f data\minecraft\tags\blocks\walls.json
+536030a3b8e3beb5dd66188cc83e0a09f04e2585 data\minecraft\tags\blocks\fences.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
 556f595a332cd57123af15e9070416ebeb91c6d4 data\magicandthings\tags\blocks\jewel_ores.json

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "magicandthings:block/raw_ruby_block"
+  }
+}

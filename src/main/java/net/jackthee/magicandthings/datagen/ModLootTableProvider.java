@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.jackthee.magicandthings.blocks.ModBlocks;
 import net.jackthee.magicandthings.item.ModItems;
 import net.minecraft.block.Block;
+import net.minecraft.block.DoorBlock;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
@@ -25,6 +26,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_BLOCK);
         addDrop(ModBlocks.RAW_RUBY_BLOCK);
         addDrop(ModBlocks.SOUND_BLOCK);
+        addDrop(ModBlocks.RUBY_BUTTON);
+        addDrop(ModBlocks.RUBY_PRESSURE_PLATE);
+        addDrop(ModBlocks.RUBY_STAIRS);
+        addDrop(ModBlocks.RUBY_FENCE_GATE);
+        addDrop(ModBlocks.RUBY_FENCE);
+        addDrop(ModBlocks.RUBY_WALL);
+
+        addDrop(ModBlocks.RUBY_SLAB,slabDrops(ModBlocks.RUBY_SLAB));
+        addDrop(ModBlocks.RUBY_DOOR,doorDrops(ModBlocks.RUBY_DOOR));
 
         addDrop(ModBlocks.CINNABAR_ORE,gemOreDrops(ModBlocks.CINNABAR_ORE, ModItems.RAW_RUBY,0.0f,2.0f));
     }
