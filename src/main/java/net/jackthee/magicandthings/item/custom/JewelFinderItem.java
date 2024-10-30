@@ -42,7 +42,7 @@ public class JewelFinderItem extends Item {
                 }
             }
             if (!FoundBlock){
-                Player.sendMessage(Text.literal("Failed to find blocks in range"),false);
+                Player.sendMessage(Text.literal("Failed to find blocks in range"),true);
             }
         }
         context.getStack().damage(1,context.getPlayer(),
@@ -52,8 +52,7 @@ public class JewelFinderItem extends Item {
     }
 
     private void OutputValuableCoordinates(BlockPos BlockPos, PlayerEntity player, Block block) {
-        player.sendMessage(Text.literal("Found " +block.asItem().getName().getString()+"at "
-                +"("+BlockPos.getX()+","+BlockPos.getY()+","+BlockPos.getZ()+")"),false);
+        player.sendMessage(Text.literal("Found " +block.asItem().getName().getString()+" nearby "),true);
     }
 
     private boolean IsValuableBlock(BlockState State){
