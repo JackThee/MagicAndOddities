@@ -18,6 +18,18 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block RAW_RUBY_BLOCK = RegisterBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CINNABAR_ORE = RegisterBlock("cinnabar_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).sounds(BlockSoundGroup.STONE)));
+    public static final Block DEEPSLATE_CINNABAR_ORE = RegisterBlock("deepslate_cinnabar_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).sounds(BlockSoundGroup.STONE)));
+
+
+
+
+
+
+
+
 
     private static Block RegisterBlock(String Name,Block Block){
         RegisterBlockItem(Name,Block);
