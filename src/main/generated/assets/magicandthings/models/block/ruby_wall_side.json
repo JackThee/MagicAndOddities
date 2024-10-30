@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_side",
   "textures": {
-    "wall": "magicandthings:block/raw_ruby_block"
+    "wall": "magicandthings:block/ruby_block"
   }
 }
