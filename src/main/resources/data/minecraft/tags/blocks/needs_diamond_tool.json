@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "magicandthings:cinnabar_ore",
+    "magicandthings:deepslate_cinnabar_ore"
   ]
 }
