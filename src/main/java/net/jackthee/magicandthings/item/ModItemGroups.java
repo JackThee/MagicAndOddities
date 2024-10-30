@@ -25,6 +25,7 @@ public class ModItemGroups {
                     entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     entries.add(ModBlocks.CINNABAR_ORE);
                     entries.add(ModBlocks.DEEPSLATE_CINNABAR_ORE);
+                    entries.add(ModBlocks.SOUND_BLOCK);
 
 
                     }).build());
