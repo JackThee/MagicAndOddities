@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jackthee.magicandthings.MagicAndThings;
+import net.jackthee.magicandthings.item.custom.JewelFinderItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -14,6 +15,8 @@ public class ModItems {
 
     public static final Item RUBY = RegisterItem("ruby",new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = RegisterItem("raw_ruby",new Item(new FabricItemSettings()));
+
+    public static final Item JEWEL_FINDER = RegisterItem("jewel_finder",new JewelFinderItem(new FabricItemSettings().maxDamage(64)));
 
     private static void AddItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);

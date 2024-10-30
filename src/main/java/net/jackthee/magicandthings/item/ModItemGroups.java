@@ -19,10 +19,13 @@ public class ModItemGroups {
                     entries.add(ModItems.RUBY);
                     entries.add(ModItems.RAW_RUBY);
 
+                    entries.add(ModItems.JEWEL_FINDER);
+
                     entries.add(ModBlocks.RUBY_BLOCK);
                     entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     entries.add(ModBlocks.CINNABAR_ORE);
                     entries.add(ModBlocks.DEEPSLATE_CINNABAR_ORE);
+
 
                     }).build());
 
