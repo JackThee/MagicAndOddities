@@ -15,8 +15,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool rubyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RAW_RUBY_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool rubyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUBY_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CINNABAR_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CINNABAR_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
