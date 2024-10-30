@@ -13,9 +13,10 @@ public class ModItemGroups {
 
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,new Identifier(MagicAndThings.MOD_ID,
             "ruby"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.ruby"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
-
+                    entries.add(ModItems.RUBY);
+                    entries.add(ModItems.RAW_RUBY);
                     }).build());
 
     public static void RegisterItemGroups(){
