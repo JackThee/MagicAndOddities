@@ -3,6 +3,7 @@
   "item.magicandthings.raw_ruby": "Raw Ruby",
   "item.magicandthings.jewel_finder": "Jewel Finder",
   "item.magicandthings.tomato": "Tomato",
+  "item.magicandthings.coal_coke": "Coal Coke",
 
   "itemgroup.ruby": "Gems",
 
@@ -10,6 +11,8 @@
   "block.magicandthings.raw_ruby_block": "Block Of Raw Ruby",
   "block.magicandthings.deepslate_cinnabar_ore": "Deepslate Cinnabar Ore",
   "block.magicandthings.cinnabar_ore": "Cinnabar Ore",
-  "block.magicandthings.sound_block": "Sound Block"
+  "block.magicandthings.sound_block": "Sound Block",
+
+  "tooltip.magicandthings.jewel_finder": "Finds jewels deep under ground."
 
 }

@@ -2,6 +2,7 @@ package net.jackthee.magicandthings;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.jackthee.magicandthings.blocks.ModBlocks;
 import net.jackthee.magicandthings.item.ModItemGroups;
 import net.jackthee.magicandthings.item.ModItems;
@@ -19,5 +20,6 @@ public class MagicAndThings implements ModInitializer {
 		ModItemGroups.RegisterItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.RegisterModBlocks();
+		FuelRegistry.INSTANCE.add(ModItems.COAL_COKE,1000);
 	}
 }
