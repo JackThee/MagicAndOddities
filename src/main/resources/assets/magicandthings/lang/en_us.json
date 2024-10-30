@@ -4,5 +4,6 @@
 
   "itemgroup.ruby": "Gems",
 
-  "block.magicandthings.ruby_block": "Block Of Ruby"
+  "block.magicandthings.ruby_block": "Block Of Ruby",
+  "block.magicandthings.raw_ruby_block": "Block Of Raw Ruby"
 }
