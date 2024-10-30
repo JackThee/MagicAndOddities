@@ -1,5 +1,8 @@
 {
   "item.magicandthings.ruby": "Ruby",
   "item.magicandthings.raw_ruby": "Raw Ruby",
-  "itemgroup.ruby": "Gems"
+
+  "itemgroup.ruby": "Gems",
+
+  "block.magicandthings.ruby_block": "Block Of Ruby"
 }
