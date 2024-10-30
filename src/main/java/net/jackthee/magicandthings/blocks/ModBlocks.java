@@ -3,6 +3,7 @@ package net.jackthee.magicandthings.blocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.jackthee.magicandthings.MagicAndThings;
+import net.jackthee.magicandthings.blocks.custom.SoundBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -21,6 +22,9 @@ public class ModBlocks {
 
     public static final Block RAW_RUBY_BLOCK = RegisterBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block SOUND_BLOCK = RegisterBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block CINNABAR_ORE = RegisterBlock("cinnabar_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.5f), UniformIntProvider.create(0,5)));
