@@ -33,7 +33,10 @@
   "block.magicandthings.ruby_wall": "Ruby Wall",
   "block.magicandthings.ruby_door": "Ruby Door",
   "block.magicandthings.ruby_trapdoor": "Ruby Trapdoor",
+  "block.magicandthings.gem_polishing_station": "Gem Polishing Station",
 
-  "tooltip.magicandthings.jewel_finder": "Finds jewels deep under ground."
+  "tooltip.magicandthings.jewel_finder": "Finds jewels deep under ground.",
+  "tooltip.magicandthings.gem_polishing_station": "Polishes gems for use.",
+  "displayname.magicandthings.gem_polishing_station": "Gem Polishing Station."
 
 }
