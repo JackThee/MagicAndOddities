@@ -41,6 +41,7 @@ public class ModItemGroups {
                     entries.add(ModBlocks.CINNABAR_ORE);
                     entries.add(ModBlocks.DEEPSLATE_CINNABAR_ORE);
                     entries.add(ModBlocks.SOUND_BLOCK);
+                    entries.add(ModBlocks.GEM_POLISHING_STATION);
 
                     entries.add(ModBlocks.RUBY_SLAB);
                     entries.add(ModBlocks.RUBY_STAIRS);
