@@ -5,8 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jackthee.magicandthings.MagicAndThings;
 import net.jackthee.magicandthings.item.custom.JewelFinderItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -21,6 +20,12 @@ public class ModItems {
     public static final Item JEWEL_FINDER = RegisterItem("jewel_finder",new JewelFinderItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item RUBY_STAFF = RegisterItem("ruby_staff",new Item(new FabricItemSettings().maxCount(1)));
+
+    public static final Item RUBY_PICKAXE = RegisterItem("ruby_pickaxe",new PickaxeItem(ModToolMaterial.RUBY,0,-2.5f, new FabricItemSettings()));
+    public static final Item RUBY_AXE = RegisterItem("ruby_axe",new AxeItem(ModToolMaterial.RUBY,3,-3.1f, new FabricItemSettings()));
+    public static final Item RUBY_SWORD = RegisterItem("ruby_sword",new SwordItem(ModToolMaterial.RUBY,3,-2.1f, new FabricItemSettings()));
+    public static final Item RUBY_HOE = RegisterItem("ruby_hoe",new HoeItem(ModToolMaterial.RUBY,0,0f, new FabricItemSettings()));
+    public static final Item RUBY_SHOVEL = RegisterItem("ruby_shovel",new ShovelItem(ModToolMaterial.RUBY,0,-2.5f, new FabricItemSettings()));
 
     private static void AddItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);

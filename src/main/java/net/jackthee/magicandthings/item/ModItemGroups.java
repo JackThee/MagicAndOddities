@@ -20,6 +20,11 @@ public class ModItemGroups {
                     entries.add(ModItems.RAW_RUBY);
                     entries.add(ModItems.TOMATO);
                     entries.add(ModItems.COAL_COKE);
+                    entries.add(ModItems.RUBY_PICKAXE);
+                    entries.add(ModItems.RUBY_AXE);
+                    entries.add(ModItems.RUBY_HOE);
+                    entries.add(ModItems.RUBY_SHOVEL);
+                    entries.add(ModItems.RUBY_SWORD);
 
                     entries.add(ModItems.JEWEL_FINDER);
                     entries.add(ModItems.RUBY_STAFF);

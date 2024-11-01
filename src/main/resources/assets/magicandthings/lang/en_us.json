@@ -5,6 +5,11 @@
   "item.magicandthings.tomato": "Tomato",
   "item.magicandthings.coal_coke": "Coal Coke",
   "item.magicandthings.ruby_staff": "Ruby Staff",
+  "item.magicandthings.ruby_pickaxe": "Ruby Pickaxe",
+  "item.magicandthings.ruby_sword": "Ruby Sword",
+  "item.magicandthings.ruby_hoe": "Ruby Hoe",
+  "item.magicandthings.ruby_shovel": "Ruby Shovel",
+  "item.magicandthings.ruby_axe": "Ruby Axe",
 
   "itemgroup.ruby": "Gems",
 
