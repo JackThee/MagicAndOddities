@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jackthee.magicandthings.MagicAndThings;
 import net.jackthee.magicandthings.item.custom.JewelFinderItem;
+import net.jackthee.magicandthings.item.custom.ModArmourMaterials;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -16,6 +17,7 @@ public class ModItems {
     public static final Item RAW_RUBY = RegisterItem("raw_ruby",new Item(new FabricItemSettings()));
     public static final Item TOMATO = RegisterItem("tomato",new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item COAL_COKE = RegisterItem("coal_coke",new Item(new FabricItemSettings()));
+    public static final Item STEEL_INGOT = RegisterItem("steel_ingot",new Item(new FabricItemSettings()));
 
     public static final Item JEWEL_FINDER = RegisterItem("jewel_finder",new JewelFinderItem(new FabricItemSettings().maxDamage(64)));
 
@@ -26,6 +28,11 @@ public class ModItems {
     public static final Item RUBY_SWORD = RegisterItem("ruby_sword",new SwordItem(ModToolMaterial.RUBY,3,-2.1f, new FabricItemSettings()));
     public static final Item RUBY_HOE = RegisterItem("ruby_hoe",new HoeItem(ModToolMaterial.RUBY,0,0f, new FabricItemSettings()));
     public static final Item RUBY_SHOVEL = RegisterItem("ruby_shovel",new ShovelItem(ModToolMaterial.RUBY,0,-2.5f, new FabricItemSettings()));
+
+    public static final Item STEEL_HELMET = RegisterItem("steel_helmet",new ArmorItem(ModArmourMaterials.STEEL,ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item STEEL_CHESTPLATE = RegisterItem("steel_chestplate",new ArmorItem(ModArmourMaterials.STEEL,ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item STEEL_LEGGINGS = RegisterItem("steel_leggings",new ArmorItem(ModArmourMaterials.STEEL,ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item STEEL_BOOTS = RegisterItem("steel_boots",new ArmorItem(ModArmourMaterials.STEEL,ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static void AddItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);

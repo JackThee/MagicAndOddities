@@ -25,6 +25,11 @@ public class ModItemGroups {
                     entries.add(ModItems.RUBY_HOE);
                     entries.add(ModItems.RUBY_SHOVEL);
                     entries.add(ModItems.RUBY_SWORD);
+                    entries.add(ModItems.STEEL_INGOT);
+                    entries.add(ModItems.STEEL_HELMET);
+                    entries.add(ModItems.STEEL_CHESTPLATE);
+                    entries.add(ModItems.STEEL_LEGGINGS);
+                    entries.add(ModItems.STEEL_BOOTS);
 
                     entries.add(ModItems.JEWEL_FINDER);
                     entries.add(ModItems.RUBY_STAFF);
