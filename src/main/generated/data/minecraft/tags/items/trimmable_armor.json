@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "magicandthings:steel_helmet",
+    "magicandthings:steel_chestplate",
+    "magicandthings:steel_leggings",
+    "magicandthings:steel_boots"
+  ]
+}

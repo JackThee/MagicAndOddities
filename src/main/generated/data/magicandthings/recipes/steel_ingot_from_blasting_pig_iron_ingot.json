@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 2.0,
+  "group": "steel",
+  "ingredient": {
+    "item": "magicandthings:pig_iron_ingot"
+  },
+  "result": "magicandthings:steel_ingot"
+}

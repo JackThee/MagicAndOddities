@@ -30,6 +30,8 @@ public class ModItemGroups {
                     entries.add(ModItems.STEEL_CHESTPLATE);
                     entries.add(ModItems.STEEL_LEGGINGS);
                     entries.add(ModItems.STEEL_BOOTS);
+                    entries.add(ModItems.PIG_IRON_INGOT);
+                    entries.add(ModItems.STEEL_BLEND);
 
                     entries.add(ModItems.JEWEL_FINDER);
                     entries.add(ModItems.RUBY_STAFF);
