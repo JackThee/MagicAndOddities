@@ -10,7 +10,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class GemPolishingScreen extends HandledScreen<GemPolishingScreenHandler> {
-    private static final Identifier TEXTURE = new Identifier(MagicAndThings.MOD_ID,"textures/gui/gem_polishing_station_gui");
+    private static final Identifier TEXTURE = new Identifier(MagicAndThings.MOD_ID,"textures/gui/gem_polishing_station_gui.png");
 
     public GemPolishingScreen(GemPolishingScreenHandler handler, PlayerInventory inventory, Text title) {
         super(handler, inventory, title);

@@ -31,7 +31,7 @@ public class ModBlocks {
     public static final Block SOUND_BLOCK = RegisterBlock("sound_block",
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block GEM_POLISHING_STATION = RegisterBlock("gem_polishing_station",
-            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     public static final Block RUBY_STAIRS = RegisterBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(),FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
