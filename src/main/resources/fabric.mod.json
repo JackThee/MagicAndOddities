@@ -22,6 +22,9 @@
 		],
 		"fabric-datagen": [
 			"net.jackthee.magicandthings.MagicAndThingsDataGenerator"
+		],
+		"rei_client": [
+			"net.jackthee.magicandthings.compat.rei.MagicAndThingsREIClientPlugin"
 		]
 	},
 	"mixins": [

@@ -1,0 +1,11 @@
+{
+  "type": "magicandthings:gem_polishing",
+  "ingredients": [
+    {
+    "item": "magicandthings:raw_ruby_block"
+    }
+  ],"output": {
+  "item": "magicandthings:ruby_block",
+  "count": 2
+}
+}

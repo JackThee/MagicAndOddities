@@ -1,15 +1,14 @@
 package net.jackthee.magicandthings.recipe;
 
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.PacketByteBuf;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.recipe.Recipe;
-import net.minecraft.recipe.RecipeSerializer;
-import net.minecraft.recipe.RecipeType;
+import net.minecraft.recipe.*;
 import net.minecraft.registry.DynamicRegistryManager;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.JsonHelper;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.world.World;
 
@@ -19,10 +18,12 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
 
     private final ItemStack Output;
     private final List<Ingredient> recipeItems;
+    private final Identifier ID;
 
-    public GemPolishingRecipe(List<Ingredient> ingredients,ItemStack ItemStack){
+    public GemPolishingRecipe(List<Ingredient> ingredients, ItemStack ItemStack, Identifier id){
         this.Output = ItemStack;
         this.recipeItems = ingredients;
+        this.ID = id;
     }
 
 
@@ -47,7 +48,7 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
 
     @Override
     public ItemStack getOutput(DynamicRegistryManager registryManager) {
-        return Output;
+        return Output.copy();
     }
 
     @Override
@@ -59,12 +60,12 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
 
     @Override
     public Identifier getId() {
-        return null;
+        return ID;
     }
 
     @Override
     public RecipeSerializer<?> getSerializer() {
-        return null;
+        return Serializer.INSTANCE;
     }
 
     @Override
@@ -74,24 +75,45 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
 
     public static class Type implements RecipeType<GemPolishingRecipe>{
         public static final Type INSTANCE = new Type();
-        public static final String ID="gem_polishing";
+        public static final String ID= "gem_polishing";
     }
 
     public static class Serializer implements RecipeSerializer<GemPolishingRecipe>{
-
+        public static final Serializer INSTANCE = new Serializer();
+        public static final String ID = "gem_polishing";
         @Override
         public GemPolishingRecipe read(Identifier id, JsonObject json) {
+            ItemStack output = ShapedRecipe.outputFromJson(JsonHelper.getObject(json, "output"));
 
+            JsonArray ingredients = JsonHelper.getArray(json, "ingredients");
+            DefaultedList<Ingredient> inputs = DefaultedList.ofSize(1, Ingredient.EMPTY);
+
+            for (int i = 0; i < inputs.size(); i++) {
+                inputs.set(i, Ingredient.fromJson(ingredients.get(i)));
+            }
+
+            return new GemPolishingRecipe(inputs, output,id);
         }
 
         @Override
         public GemPolishingRecipe read(Identifier id, PacketByteBuf buf) {
-            return null;
+            DefaultedList<Ingredient> inputs = DefaultedList.ofSize(buf.readInt(), Ingredient.EMPTY);
+
+            for (int i = 0; i < inputs.size(); i++) {
+                inputs.set(i, Ingredient.fromPacket(buf));
+            }
+
+            ItemStack output = buf.readItemStack();
+            return new GemPolishingRecipe(inputs,output,id);
         }
 
         @Override
         public void write(PacketByteBuf buf, GemPolishingRecipe recipe) {
-
+            buf.writeInt(recipe.getIngredients().size());
+            for (Ingredient ing : recipe.getIngredients()) {
+                ing.write(buf);
+            }
+            buf.writeItemStack(recipe.getOutput(DynamicRegistryManager.EMPTY));
         }
     }
 }

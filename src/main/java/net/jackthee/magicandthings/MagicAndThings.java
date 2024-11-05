@@ -7,6 +7,7 @@ import net.jackthee.magicandthings.blocks.ModBlocks;
 import net.jackthee.magicandthings.blocks.entity.ModBlockEntities;
 import net.jackthee.magicandthings.item.ModItemGroups;
 import net.jackthee.magicandthings.item.ModItems;
+import net.jackthee.magicandthings.recipe.ModRecipes;
 import net.jackthee.magicandthings.screen.ModScreenHandlers;
 import net.jackthee.magicandthings.util.ModLootTableModifier;
 import org.slf4j.Logger;
@@ -27,5 +28,6 @@ public class MagicAndThings implements ModInitializer {
 		ModLootTableModifier.modifyLootTables();
 		ModBlockEntities.RegisterBlockEntities();
 		ModScreenHandlers.RegisterScreenHandlers();
+		ModRecipes.RegisterRecipes();
 	}
 }
