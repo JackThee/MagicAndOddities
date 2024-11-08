@@ -17,7 +17,7 @@ public class ModArmourItem extends ArmorItem {
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
                     .put(ModArmourMaterials.RUBY, new StatusEffectInstance(StatusEffects.HASTE, 400, 1,
                             false, false, false))
-                    .put(ModArmourMaterials.STEEL, new StatusEffectInstance(StatusEffects.HASTE, 400, 1,
+                    .put(ModArmourMaterials.STEEL, new StatusEffectInstance(StatusEffects.SLOWNESS, 400, 1,
                     false, false, false)).build();
 
 

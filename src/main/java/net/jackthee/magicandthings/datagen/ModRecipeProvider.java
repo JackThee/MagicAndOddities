@@ -44,6 +44,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.IRON_INGOT)
                 .criterion(hasItem(Items.IRON_INGOT),conditionsFromItem(Items.IRON_INGOT))
                 .criterion(hasItem(ModItems.COAL_COKE),conditionsFromItem(ModItems.COAL_COKE));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModBlocks.GEM_POLISHING_STATION,9)
+                .input('#',ModItems.PIG_IRON_INGOT)
+
+                .pattern(" # ")
+                .pattern("###")
+                .pattern("###")
+
+
+                .criterion(hasItem(ModItems.PIG_IRON_INGOT),conditionsFromItem(ModItems.PIG_IRON_INGOT));
 
     }
 }
