@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-04T16:45:54.1519316	Magic And Things/Model Definitions
+// 1.20.1	2024-11-08T09:49:47.5078967	Magic And Things/Model Definitions
 1a318e0b7b30e37dc58834b26c15a883fda75739 assets\magicandthings\blockstates\ruby_wall.json
 77b0533cbf192fe733944f303eb0a8707c56c520 assets\magicandthings\models\item\raw_ruby.json
 7b7e8a9c2ab04b814d5aca2d3ac1fcd85217d5d4 assets\magicandthings\models\item\steel_boots_quartz_trim.json
@@ -20,6 +20,7 @@ bdc8983186ea8537540c394af1ce80c757f33d9b assets\magicandthings\blockstates\ruby_
 16da3f5f78bd8291ff3d0e39eb7e593202f416de assets\magicandthings\models\item\steel_boots_gold_trim.json
 8ce8575e2594871533485c6dadeb39d449ee361b assets\magicandthings\blockstates\ruby_trapdoor.json
 c47c968ca66cd7c595bbfb67d168e9ca9f9ac7bb assets\magicandthings\models\item\deepslate_cinnabar_ore.json
+c1cb03bd30fc08855b9a2c7c484f2577e87d72a9 assets\magicandthings\models\item\scroll_of_feeding.json
 724683ac0c88a1eb3a2575400ebe964281ef801e assets\magicandthings\models\item\steel_chestplate_lapis_trim.json
 215666452e0c712592e3bff6d1da7cabb1a19059 assets\magicandthings\blockstates\sound_block.json
 b292bd7fb4b0f0c38b86ba4be9e4e9eed0d0416f assets\magicandthings\models\block\sound_block.json
@@ -54,8 +55,8 @@ db88d7cbf78462b660462e233016f987a1d7eee7 assets\magicandthings\models\item\steel
 b0e9918e96f91a93f3f5f5ebd3bb59924d168bb2 assets\magicandthings\models\block\ruby_wall_post.json
 ba6aa60382040219eedf8cee63b0b8902530abcf assets\magicandthings\models\block\ruby_wall_side.json
 fac345e65539874abe92c311d238882d18d36b64 assets\magicandthings\blockstates\ruby_door.json
-a10f023817b55d780cd3f53c99e678c708a7a4da assets\magicandthings\models\block\ruby_stairs_inner.json
 ee00e387b83b05c6ab8018f946e0b0db00bdcca4 assets\magicandthings\models\item\steel_helmet_diamond_trim.json
+a10f023817b55d780cd3f53c99e678c708a7a4da assets\magicandthings\models\block\ruby_stairs_inner.json
 07cfa0e575959c5adb02946896e1864f5e0e1d26 assets\magicandthings\models\item\steel_helmet_lapis_trim.json
 3328bb67ea34f4efd8fc08fdd94d32676a892999 assets\magicandthings\models\item\steel_chestplate_gold_trim.json
 37ca5257828db3bd8995d495639a035f19eb4902 assets\magicandthings\models\item\ruby_sword.json

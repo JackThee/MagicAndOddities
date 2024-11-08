@@ -7,6 +7,7 @@ import net.jackthee.magicandthings.MagicAndThings;
 import net.jackthee.magicandthings.item.custom.JewelFinderItem;
 import net.jackthee.magicandthings.item.custom.ModArmourItem;
 import net.jackthee.magicandthings.item.custom.ModArmourMaterials;
+import net.jackthee.magicandthings.item.custom.ScrollOfFeedingItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -23,6 +24,7 @@ public class ModItems {
     public static final Item PIG_IRON_INGOT = RegisterItem("pig_iron_ingot",new Item(new FabricItemSettings()));
 
     public static final Item JEWEL_FINDER = RegisterItem("jewel_finder",new JewelFinderItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item SCROLL_OF_FEEDING = RegisterItem("scroll_of_feeding",new ScrollOfFeedingItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item RUBY_STAFF = RegisterItem("ruby_staff",new Item(new FabricItemSettings().maxCount(1)));
 
