@@ -6,6 +6,7 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.particle.ParticleTypes;
 import net.minecraft.potion.Potions;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
@@ -24,10 +25,11 @@ public class ScrollOfHealingItem extends Item {
         ItemStack heldItem = user.getHandItems().iterator().next();
         if (user.experienceLevel > 0){
             user.addExperience(-10);
-            AreaEffectCloudEntity effectCloud = new AreaEffectCloudEntity(user.getWorld(), user.getX(), user.getY() - 1, user.getZ());
+            AreaEffectCloudEntity effectCloud = new AreaEffectCloudEntity(user.getWorld(), user.getX(), user.getY(), user.getZ());
             effectCloud.addEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH,10,1,false,false,false));
             effectCloud.setRadius(3f);
             effectCloud.setDuration(200);
+            effectCloud.setParticleType(ParticleTypes.HEART);
             user.getWorld().spawnEntity(effectCloud);
             user.getItemCooldownManager().set(heldItem.getItem(),800);
         }
