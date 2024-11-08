@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-08T10:56:01.1211331	Magic And Things/Model Definitions
+// 1.20.1	2024-11-08T14:53:24.9967501	Magic And Things/Model Definitions
 1a318e0b7b30e37dc58834b26c15a883fda75739 assets\magicandthings\blockstates\ruby_wall.json
 77b0533cbf192fe733944f303eb0a8707c56c520 assets\magicandthings\models\item\raw_ruby.json
 7b7e8a9c2ab04b814d5aca2d3ac1fcd85217d5d4 assets\magicandthings\models\item\steel_boots_quartz_trim.json
@@ -7,6 +7,7 @@ fb1c86424c03bc11ec1a5f4eed0fe715f00f8abe assets\magicandthings\models\block\ruby
 58b7fe0f7f1e2385158c729d10cbb19b733db0b7 assets\magicandthings\blockstates\ruby_stairs.json
 d54aedf8de131c34e7010c803b8fe23e282118b7 assets\magicandthings\models\block\ruby_fence_side.json
 ef44888c14cb4f071cd0268eaba39e511fe00543 assets\magicandthings\models\item\steel_leggings_quartz_trim.json
+c77a9c36977cbd303a5ccf61f702a3f75d0ef346 assets\magicandthings\models\item\scroll_of_fury.json
 0d3d264a76f72cad37a38835465b64e575db4eb0 assets\magicandthings\models\item\steel_helmet_iron_trim.json
 ab50b05f58b350402c03e7c2666ecc33df4f7a83 assets\magicandthings\models\block\ruby_door_bottom_left_open.json
 80b176ccc01896cb621cc9e0984ac61ea70b6682 assets\magicandthings\models\item\steel_chestplate_diamond_trim.json
@@ -95,9 +96,9 @@ b859293f56216395351a35f3dea5be8b854c6fd5 assets\magicandthings\models\item\steel
 e781b80fe6b94edbae6aee77a24aefdf651da7a0 assets\magicandthings\blockstates\cinnabar_ore.json
 76327006a0bb2a2079cdd67d4ed155bdfc5dfed5 assets\magicandthings\models\item\cinnabar_ore.json
 384acee3b6d7cd2f35d6b2f7a31c01e13557518d assets\magicandthings\models\block\ruby_door_bottom_right.json
+a2cfa69b849975227f21f59bd0737cc18adf5b95 assets\magicandthings\models\item\steel_boots_copper_trim.json
 144427504f5cb6b4f140c720adbd80f29778856a assets\magicandthings\models\item\steel_ingot.json
 c3bde2c07885da038a14abe9bf7ba3fca7726fd9 assets\magicandthings\models\block\ruby_door_top_right_open.json
-a2cfa69b849975227f21f59bd0737cc18adf5b95 assets\magicandthings\models\item\steel_boots_copper_trim.json
 95ff2d8b81c99bf3ebdf86d03cde52af6a0bdfd7 assets\magicandthings\models\item\steel_helmet_amethyst_trim.json
 2b45b18b4fa730f851bc47a4fe57a1e798c445a3 assets\magicandthings\models\block\ruby_button_inventory.json
 71ec90d2608050e6fa0ba5cd6e7f09b16307e46c assets\magicandthings\models\item\steel_leggings_lapis_trim.json

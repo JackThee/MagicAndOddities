@@ -65,5 +65,6 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SCROLL_OF_FEEDING);
                         entries.add(ModItems.SCROLL_OF_HEALING);
+                        entries.add(ModItems.SCROLL_OF_FURY);
             }).build());
 }
