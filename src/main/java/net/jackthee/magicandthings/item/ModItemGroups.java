@@ -36,6 +36,7 @@ public class ModItemGroups {
                     entries.add(ModItems.JEWEL_FINDER);
                     entries.add(ModItems.RUBY_STAFF);
 
+
                     entries.add(ModBlocks.RUBY_BLOCK);
                     entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     entries.add(ModBlocks.CINNABAR_ORE);
@@ -59,4 +60,10 @@ public class ModItemGroups {
     public static void RegisterItemGroups(){
         MagicAndThings.LOGGER.info("Registering Item Groups Of: " + MagicAndThings.MOD_ID);
     }
+    public static final ItemGroup SCROLL_GROUP = Registry.register(Registries.ITEM_GROUP,new Identifier(MagicAndThings.MOD_ID,"scroll"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scroll")).icon(()->new ItemStack(ModItems.SCROLL_OF_HEALING))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.SCROLL_OF_FEEDING);
+                        entries.add(ModItems.SCROLL_OF_HEALING);
+            }).build());
 }
