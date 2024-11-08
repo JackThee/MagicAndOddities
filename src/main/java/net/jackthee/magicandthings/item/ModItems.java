@@ -4,10 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jackthee.magicandthings.MagicAndThings;
-import net.jackthee.magicandthings.item.custom.JewelFinderItem;
-import net.jackthee.magicandthings.item.custom.ModArmourItem;
-import net.jackthee.magicandthings.item.custom.ModArmourMaterials;
-import net.jackthee.magicandthings.item.custom.ScrollOfFeedingItem;
+import net.jackthee.magicandthings.item.custom.*;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -25,6 +22,7 @@ public class ModItems {
 
     public static final Item JEWEL_FINDER = RegisterItem("jewel_finder",new JewelFinderItem(new FabricItemSettings().maxDamage(64)));
     public static final Item SCROLL_OF_FEEDING = RegisterItem("scroll_of_feeding",new ScrollOfFeedingItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item SCROLL_OF_HEALING = RegisterItem("scroll_of_healing",new ScrollOfHealingItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item RUBY_STAFF = RegisterItem("ruby_staff",new Item(new FabricItemSettings().maxCount(1)));
 
