@@ -23,6 +23,7 @@ public class ModItems {
     public static final Item JEWEL_FINDER = RegisterItem("jewel_finder",new JewelFinderItem(new FabricItemSettings().maxDamage(64)));
     public static final Item SCROLL_OF_FEEDING = RegisterItem("scroll_of_feeding",new ScrollOfFeedingItem(new FabricItemSettings().maxDamage(64)));
     public static final Item SCROLL_OF_HEALING = RegisterItem("scroll_of_healing",new ScrollOfHealingItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item SCROLL_OF_FURY = RegisterItem("scroll_of_fury",new ScrollOfFuryItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item RUBY_STAFF = RegisterItem("ruby_staff",new Item(new FabricItemSettings().maxCount(1)));
 
