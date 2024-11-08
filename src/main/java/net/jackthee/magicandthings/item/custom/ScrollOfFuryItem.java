@@ -24,16 +24,17 @@ public class ScrollOfFuryItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        ItemStack heldItem = user.getHandItems().iterator().next();
-        if (user.experienceLevel > 0){
-            user.addExperience(-10);
-            user.damage(new DamageSource(world.getRegistryManager().get(RegistryKeys.DAMAGE_TYPE).entryOf(DamageTypes.INDIRECT_MAGIC)),2f);
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH,400,4,false,false,false));
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED,400,1,false,false,false));
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE,400,1,false,false,false));
-            user.getItemCooldownManager().set(heldItem.getItem(),1600);
-        }
-    TypedActionResult<ItemStack> result = new TypedActionResult<ItemStack>(ActionResult.SUCCESS,heldItem);
+        if (!world.isClient) {
+            ItemStack heldItem = user.getHandItems().iterator().next();
+            if (user.experienceLevel > 0) {
+                user.addExperience(-10);
+                user.damage(new DamageSource(world.getRegistryManager().get(RegistryKeys.DAMAGE_TYPE).entryOf(DamageTypes.INDIRECT_MAGIC)), 2f);
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 400, 4, false, false, false));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 1, false, false, false));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 400, 1, false, false, false));
+                user.getItemCooldownManager().set(heldItem.getItem(), 1600);
+            }
+        }TypedActionResult<ItemStack> result = new TypedActionResult<ItemStack>(ActionResult.SUCCESS,user.getHandItems().iterator().next());
 
 
         return result;

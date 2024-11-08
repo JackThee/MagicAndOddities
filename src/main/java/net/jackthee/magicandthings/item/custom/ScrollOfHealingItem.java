@@ -22,18 +22,19 @@ public class ScrollOfHealingItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        ItemStack heldItem = user.getHandItems().iterator().next();
-        if (user.experienceLevel > 0){
-            user.addExperience(-10);
-            AreaEffectCloudEntity effectCloud = new AreaEffectCloudEntity(user.getWorld(), user.getX(), user.getY(), user.getZ());
-            effectCloud.addEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH,10,1,false,false,false));
-            effectCloud.setRadius(3f);
-            effectCloud.setDuration(200);
-            effectCloud.setParticleType(ParticleTypes.HEART);
-            user.getWorld().spawnEntity(effectCloud);
-            user.getItemCooldownManager().set(heldItem.getItem(),800);
-        }
-    TypedActionResult<ItemStack> result = new TypedActionResult<ItemStack>(ActionResult.SUCCESS,heldItem);
+        if (!world.isClient) {
+            ItemStack heldItem = user.getHandItems().iterator().next();
+            if (user.experienceLevel > 0) {
+                user.addExperience(-10);
+                AreaEffectCloudEntity effectCloud = new AreaEffectCloudEntity(user.getWorld(), user.getX(), user.getY(), user.getZ());
+                effectCloud.addEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 10, 1, false, false, false));
+                effectCloud.setRadius(3f);
+                effectCloud.setDuration(200);
+                effectCloud.setParticleType(ParticleTypes.HEART);
+                user.getWorld().spawnEntity(effectCloud);
+                user.getItemCooldownManager().set(heldItem.getItem(), 800);
+            }
+        }TypedActionResult<ItemStack> result = new TypedActionResult<ItemStack>(ActionResult.SUCCESS,user.getHandItems().iterator().next());
 
 
         return result;

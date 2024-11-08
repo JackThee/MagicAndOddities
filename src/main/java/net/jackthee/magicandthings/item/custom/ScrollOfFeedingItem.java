@@ -20,15 +20,18 @@ public class ScrollOfFeedingItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        ItemStack heldItem = user.getHandItems().iterator().next();
-        if (user.experienceLevel > 0){
-            user.addExperience(-10);
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION,100,4,false,false,false));
-            user.getItemCooldownManager().set(heldItem.getItem(),800);
+        if (!world.isClient) {
+            ItemStack heldItem = user.getHandItems().iterator().next();
+            if (user.experienceLevel > 0) {
+                user.addExperience(-10);
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 100, 4, false, false, false));
+                user.getItemCooldownManager().set(heldItem.getItem(), 800);
+            }
+
+
+
         }
-    TypedActionResult<ItemStack> result = new TypedActionResult<ItemStack>(ActionResult.SUCCESS,heldItem);
-
-
+        TypedActionResult<ItemStack> result = new TypedActionResult<ItemStack>(ActionResult.SUCCESS, user.getHandItems().iterator().next());
         return result;
     }
 }
