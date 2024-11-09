@@ -52,7 +52,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("###")
                 .criterion(hasItem(ModItems.PIG_IRON_INGOT),conditionsFromItem(ModItems.PIG_IRON_INGOT))
                 .offerTo(consumer,new Identifier(getRecipeName(ModBlocks.GEM_POLISHING_STATION.asItem())));
-
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.STEEL_HELMET,1)
+                .input('#',ModItems.STEEL_INGOT)
+                .pattern("###")
+                .pattern("# #")
+                .criterion(hasItem(ModItems.STEEL_INGOT),conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(consumer,new Identifier(getRecipeName(ModItems.STEEL_HELMET)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.STEEL_CHESTPLATE,1)
+                .input('#',ModItems.STEEL_INGOT)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .criterion(hasItem(ModItems.STEEL_INGOT),conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(consumer,new Identifier(getRecipeName(ModItems.STEEL_CHESTPLATE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.STEEL_LEGGINGS,1)
+                .input('#',ModItems.STEEL_INGOT)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .criterion(hasItem(ModItems.STEEL_INGOT),conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(consumer,new Identifier(getRecipeName(ModItems.STEEL_LEGGINGS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.STEEL_BOOTS,1)
+                .input('#',ModItems.STEEL_INGOT)
+                .pattern("# #")
+                .pattern("# #")
+                .criterion(hasItem(ModItems.STEEL_INGOT),conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(consumer,new Identifier(getRecipeName(ModItems.STEEL_BOOTS)));
 
     }
 }
