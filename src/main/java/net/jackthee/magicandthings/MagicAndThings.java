@@ -10,6 +10,7 @@ import net.jackthee.magicandthings.item.ModItemGroups;
 import net.jackthee.magicandthings.item.ModItems;
 import net.jackthee.magicandthings.recipe.ModRecipes;
 import net.jackthee.magicandthings.screen.ModScreenHandlers;
+import net.jackthee.magicandthings.sound.ModSounds;
 import net.jackthee.magicandthings.util.ModLootTableModifier;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.world.gen.feature.PlacedFeature;
@@ -34,5 +35,6 @@ public class MagicAndThings implements ModInitializer {
 		ModScreenHandlers.RegisterScreenHandlers();
 		ModRecipes.RegisterRecipes();
 		ModFeatures.RegisterFeatures();
+		ModSounds.registerSounds();
 	}
 }
