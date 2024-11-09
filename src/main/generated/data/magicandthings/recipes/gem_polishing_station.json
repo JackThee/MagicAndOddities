@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "magicandthings:pig_iron_ingot"
+    }
+  },
+  "pattern": [
+    " # ",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 9,
+    "item": "magicandthings:gem_polishing_station"
+  },
+  "show_notification": true
+}

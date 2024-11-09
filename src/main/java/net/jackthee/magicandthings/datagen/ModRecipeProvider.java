@@ -29,7 +29,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(Consumer<RecipeJsonProvider> consumer) {
 
-        offerBlasting(consumer,RUBY_SMELTABLES, RecipeCategory.MISC,ModItems.RUBY,2.0f,400,"ruby");
+
         offerBlasting(consumer, STEEL_DUST_SMELTABLES, RecipeCategory.MISC,ModItems.PIG_IRON_INGOT,2.0f,600,"steel");
         offerBlasting(consumer, STEEL_INGOT_SMELTABLES, RecipeCategory.MISC,ModItems.STEEL_INGOT,2.0f,600,"steel");
         offerBlasting(consumer, COAL_SMELTABLES, RecipeCategory.MISC,ModItems.COAL_COKE,2.0f,600,"steel");
@@ -43,16 +43,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.COAL_COKE)
                 .input(Items.IRON_INGOT)
                 .criterion(hasItem(Items.IRON_INGOT),conditionsFromItem(Items.IRON_INGOT))
-                .criterion(hasItem(ModItems.COAL_COKE),conditionsFromItem(ModItems.COAL_COKE));
+                .criterion(hasItem(ModItems.COAL_COKE),conditionsFromItem(ModItems.COAL_COKE))
+                .offerTo(consumer,new Identifier(getRecipeName(ModItems.STEEL_BLEND)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModBlocks.GEM_POLISHING_STATION,9)
                 .input('#',ModItems.PIG_IRON_INGOT)
-
                 .pattern(" # ")
                 .pattern("###")
                 .pattern("###")
+                .criterion(hasItem(ModItems.PIG_IRON_INGOT),conditionsFromItem(ModItems.PIG_IRON_INGOT))
+                .offerTo(consumer,new Identifier(getRecipeName(ModBlocks.GEM_POLISHING_STATION.asItem())));
 
-
-                .criterion(hasItem(ModItems.PIG_IRON_INGOT),conditionsFromItem(ModItems.PIG_IRON_INGOT));
 
     }
 }
