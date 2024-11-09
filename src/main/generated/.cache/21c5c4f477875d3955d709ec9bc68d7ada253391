@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-09T11:52:33.797571	Magic And Things/Recipes
+// 1.20.1	2024-11-09T11:54:13.9821703	Magic And Things/Recipes
 7efeb692a9190f47a4f61d9de1f70bcc41318aff data\magicandthings\recipes\ruby.json
 952ceb697d6bcf42155460e700b328936016483e data\magicandthings\recipes\steel_blend.json
 403042590838e794dff4e7b7c842c37e9dd59f67 data\magicandthings\advancements\recipes\decorations\ruby_block.json
@@ -12,7 +12,7 @@ a66f9ca64498762138399d202d8d77c1a87e04e4 data\magicandthings\recipes\ruby_block.
 17a694a6da865cdbf4878fa86f55cec8c0d50fed data\magicandthings\recipes\pig_iron_ingot_from_blasting_steel_blend.json
 6175b389ae6427ac506606d1063b47977fd6541d data\magicandthings\advancements\recipes\misc\steel_ingot_from_blasting_pig_iron_ingot.json
 4e072e0b89d5e1f346c127c880f28d3a7efd71dc data\magicandthings\advancements\recipes\building_blocks\raw_ruby.json
-36ec698e0a5a506c4bb158f33bc117560ea64906 data\magicandthings\recipes\gem_polishing_station.json
+3ddf10f82323d584bfe7f23d312d565cc866a95b data\magicandthings\recipes\gem_polishing_station.json
 52f75613c70853d56b11df54a672993e6455493b data\magicandthings\recipes\steel_ingot_from_blasting_pig_iron_ingot.json
 4f0fd02df1e176dcd82489987f89ef8905d3a26a data\magicandthings\recipes\raw_ruby_block.json
 7e563e94de82d126b0ae39d1b1e0358af5a6c384 data\magicandthings\advancements\recipes\building_blocks\ruby.json
