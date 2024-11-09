@@ -3,11 +3,11 @@
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "minecraft:plains",
+      "biome": "magicandthings:sky",
       "layers": [
         {
           "block": "minecraft:air",
-          "height": 64
+          "height": 1
         }
       ],
       "structure_overrides": []
