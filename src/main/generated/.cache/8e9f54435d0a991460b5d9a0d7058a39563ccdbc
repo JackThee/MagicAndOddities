@@ -1,13 +1,14 @@
-// 1.20.1	2024-11-09T11:59:25.0078027	Magic And Things/Block Loot Tables
+// 1.20.1	2024-11-09T12:13:43.4108527	Magic And Things/Block Loot Tables
 75ac163b177564d27b4a665ed5e5f20f25ae61ec data\magicandthings\loot_tables\blocks\raw_ruby_block.json
 8439d7e481b65dbb7b64911b9e6f4b9b99bd99e1 data\magicandthings\loot_tables\blocks\sound_block.json
 be496374ddb1f48d8d5f81163113d6f97c48ffe8 data\magicandthings\loot_tables\blocks\ruby_fence_gate.json
 39db5cb09b091802a6b004fe6d1575744e5915e6 data\magicandthings\loot_tables\blocks\ruby_door.json
 fbdb613815be0c3f0708968160dc2526a2d22e92 data\magicandthings\loot_tables\blocks\ruby_pressure_plate.json
-8a82eebcf07d46b493fe0c7d57651d75a2eb1994 data\magicandthings\loot_tables\blocks\cinnabar_ore.json
+0b3bd3fe13160c08fb3039258c0fcff0fe142644 data\magicandthings\loot_tables\blocks\cinnabar_ore.json
 0f45a7c4e38353961192fa94d1645f582d53d9b3 data\magicandthings\loot_tables\blocks\ruby_button.json
 6c03cb3e07f48a1b68b1991495f5621c1903d931 data\magicandthings\loot_tables\blocks\ruby_wall.json
 9baa19c339066d3911902adf92c7b29af780cc49 data\magicandthings\loot_tables\blocks\ruby_fence.json
 fc215bc6c79a36f8520fecbedb384efd783d0bbd data\magicandthings\loot_tables\blocks\ruby_slab.json
-1291ddbb1bbda084c87c96db5fa1dbe31b59cc1f data\magicandthings\loot_tables\blocks\ruby_stairs.json
+bfc07a5fb08339914a4fde4559174eb8f86fbc91 data\magicandthings\loot_tables\blocks\deepslate_cinnabar_ore.json
 fadbdc2efa2b100cc17d0818323d3eaad3346122 data\magicandthings\loot_tables\blocks\ruby_block.json
+1291ddbb1bbda084c87c96db5fa1dbe31b59cc1f data\magicandthings\loot_tables\blocks\ruby_stairs.json

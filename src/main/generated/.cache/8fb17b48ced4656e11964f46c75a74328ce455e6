@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-09T11:59:25.0098033	Magic And Things/Model Definitions
+// 1.20.1	2024-11-09T12:13:43.4128529	Magic And Things/Model Definitions
 1a318e0b7b30e37dc58834b26c15a883fda75739 assets\magicandthings\blockstates\ruby_wall.json
 77b0533cbf192fe733944f303eb0a8707c56c520 assets\magicandthings\models\item\raw_ruby.json
 7b7e8a9c2ab04b814d5aca2d3ac1fcd85217d5d4 assets\magicandthings\models\item\steel_boots_quartz_trim.json
@@ -54,8 +54,8 @@ db88d7cbf78462b660462e233016f987a1d7eee7 assets\magicandthings\models\item\steel
 343997a2d9ccbc4c81cb86a0babc4770ac5b5be6 assets\magicandthings\models\item\steel_leggings_diamond_trim.json
 9ee39ac813308affe25bfdb0d4fa0d8339b7a98f assets\magicandthings\models\item\steel_boots_lapis_trim.json
 12916ed4f1b73349caecbbaaac708923960198cf assets\magicandthings\models\block\ruby_trapdoor_open.json
-5ec43c3c5ed1d432b2eaad89ae2c03a579e8a0ae assets\magicandthings\models\item\steel_boots_amethyst_trim.json
 b0e9918e96f91a93f3f5f5ebd3bb59924d168bb2 assets\magicandthings\models\block\ruby_wall_post.json
+5ec43c3c5ed1d432b2eaad89ae2c03a579e8a0ae assets\magicandthings\models\item\steel_boots_amethyst_trim.json
 ba6aa60382040219eedf8cee63b0b8902530abcf assets\magicandthings\models\block\ruby_wall_side.json
 fac345e65539874abe92c311d238882d18d36b64 assets\magicandthings\blockstates\ruby_door.json
 a10f023817b55d780cd3f53c99e678c708a7a4da assets\magicandthings\models\block\ruby_stairs_inner.json

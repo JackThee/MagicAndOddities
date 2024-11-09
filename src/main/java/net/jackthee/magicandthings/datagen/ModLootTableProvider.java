@@ -39,17 +39,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_SLAB,slabDrops(ModBlocks.RUBY_SLAB));
         addDrop(ModBlocks.RUBY_DOOR,doorDrops(ModBlocks.RUBY_DOOR));
 
-        addDrop(ModBlocks.CINNABAR_ORE,gemOreDrops(ModBlocks.CINNABAR_ORE, ModItems.RAW_RUBY,0.0f,2.0f));
+        addDrop(ModBlocks.CINNABAR_ORE,gemOreDrops(ModBlocks.CINNABAR_ORE, ModItems.RAW_RUBY,0f,1.5f));
+        addDrop(ModBlocks.DEEPSLATE_CINNABAR_ORE,gemOreDrops(ModBlocks.DEEPSLATE_CINNABAR_ORE, ModItems.RAW_RUBY,0f,3.0f));
     }
 
 
     public LootTable.Builder gemOreDrops(Block drop, Item Jewel,float Min,float Max) {
                 return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this.applyExplosionDecay(drop,
                 ((LeafEntry.Builder)
-                        ItemEntry.builder(Jewel)
-                                .apply(SetCountLootFunction
-                                        .builder(UniformLootNumberProvider
-                                                .create(Min, Max))))
+                        ItemEntry.builder(Jewel).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(Min, Max))))
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
 
 

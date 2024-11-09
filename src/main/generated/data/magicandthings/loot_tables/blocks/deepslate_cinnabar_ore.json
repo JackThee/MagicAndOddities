@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "magicandthings:cinnabar_ore"
+              "name": "magicandthings:deepslate_cinnabar_ore"
             },
             {
               "type": "minecraft:item",
@@ -33,7 +33,7 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 1.5,
+                    "max": 3.0,
                     "min": 0.0
                   },
                   "function": "minecraft:set_count"
