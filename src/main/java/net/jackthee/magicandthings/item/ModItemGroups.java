@@ -17,6 +17,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                     entries.add(ModItems.RUBY);
+                    entries.add(ModItems.SHINY_RUBY);
                     entries.add(ModItems.RAW_RUBY);
                     entries.add(ModItems.TOMATO);
                     entries.add(ModItems.COAL_COKE);

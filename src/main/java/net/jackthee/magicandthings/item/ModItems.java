@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item RUBY = RegisterItem("ruby",new Item(new FabricItemSettings()));
+    public static final Item SHINY_RUBY = RegisterItem("shiny_ruby",new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = RegisterItem("raw_ruby",new Item(new FabricItemSettings()));
     public static final Item TOMATO = RegisterItem("tomato",new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item COAL_COKE = RegisterItem("coal_coke",new Item(new FabricItemSettings()));
