@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CINNABAR_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CINNABAR_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SKY_PORTAL_CORE);
         rubyPool.button(ModBlocks.RUBY_BUTTON);
         rubyPool.slab(ModBlocks.RUBY_SLAB);
         rubyPool.stairs(ModBlocks.RUBY_STAIRS);

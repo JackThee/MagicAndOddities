@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.jackthee.magicandthings.MagicAndThings;
 import net.jackthee.magicandthings.blocks.custom.GemPolishingStationBlock;
+import net.jackthee.magicandthings.blocks.custom.SkyPortalCoreBlock;
 import net.jackthee.magicandthings.blocks.custom.SoundBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -32,6 +33,8 @@ public class ModBlocks {
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block GEM_POLISHING_STATION = RegisterBlock("gem_polishing_station",
             new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block SKY_PORTAL_CORE = RegisterBlock("sky_portal_core",
+            new SkyPortalCoreBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block RUBY_STAIRS = RegisterBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(),FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
