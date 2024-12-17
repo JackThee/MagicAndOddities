@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "got_ruby": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magicandthings:raw_ruby"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "Find A Ruby"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "magicandthings:raw_ruby"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Red Shiny Rocks"
+    }
+  },
+  "requirements": [
+    [
+      "got_ruby"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

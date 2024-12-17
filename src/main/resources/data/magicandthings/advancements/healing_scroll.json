@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "got_healing_scroll": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magicandthings:scroll_of_healing"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "Scroll Of Healing"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "magicandthings:scroll_of_healing",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Scroll Of Healing"
+    }
+  },
+  "requirements": [
+    [
+      "got_healing_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

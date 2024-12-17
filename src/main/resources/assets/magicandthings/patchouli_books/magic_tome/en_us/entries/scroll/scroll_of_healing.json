@@ -1,0 +1,13 @@
+{
+  "name": "Scroll Of Healing",
+  "icon": "magicandthings:scroll_of_healing",
+  "category": "magicandthings:scroll_category",
+  "advancement": "magicandthings:healing_scroll",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "magicandthings:scroll_of_healing"},
+      "text": "Consumes 10xp per use. On use this scroll grants, An Cloud Of Healing 2 Around The User."
+    }
+  ]
+}

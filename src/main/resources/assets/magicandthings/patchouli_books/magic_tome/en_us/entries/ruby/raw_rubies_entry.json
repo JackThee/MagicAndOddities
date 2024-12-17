@@ -1,0 +1,17 @@
+{
+  "name": "Raw Rubies",
+  "icon": "magicandthings:raw_ruby",
+  "category": "magicandthings:ruby_category",
+  "advancement": "magicandthings:raw_ruby",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Raw Rubies Need To Be Polished In A Gem Polishing Station To Be Converted To Regular Rubies"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "magicandthings:gem_polishing_station",
+      "title": "Gem Polishing Station Recipe"
+    }
+  ]
+}

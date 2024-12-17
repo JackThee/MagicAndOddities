@@ -1,0 +1,13 @@
+{
+  "name": "Scroll Of Fury",
+  "icon": "magicandthings:scroll_of_fury",
+  "category": "magicandthings:scroll_category",
+  "advancement": "magicandthings:fury_scroll",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "magicandthings:scroll_of_fury"},
+      "text": "Damages user on use, and consumes 10xp per use. On use this scroll grants, Speed 2 For 20 Seconds. Resistance 2 For 20 Seconds. And Strength 5 For 20 Seconds."
+    }
+  ]
+}

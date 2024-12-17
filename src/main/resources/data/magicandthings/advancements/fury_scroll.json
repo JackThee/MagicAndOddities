@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "got_fury_scroll": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magicandthings:scroll_of_fury"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "Scroll Of Fury"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "magicandthings:scroll_of_fury",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Scroll Of Fury"
+    }
+  },
+  "requirements": [
+    [
+      "got_fury_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

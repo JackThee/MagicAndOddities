@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "got_feeding_scroll": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magicandthings:scroll_of_feeding"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "Scroll Of Feeding"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "magicandthings:scroll_of_feeding",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Scroll Of Feeding"
+    }
+  },
+  "requirements": [
+    [
+      "got_feeding_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

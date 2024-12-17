@@ -1,0 +1,13 @@
+{
+  "name": "Scroll Of Feeding",
+  "icon": "magicandthings:scroll_of_healing",
+  "category": "magicandthings:scroll_category",
+  "advancement": "magicandthings:feeding_scroll",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "magicandthings:scroll_of_feeding"},
+      "text": "Consumes 10xp per use. On use this scroll grants, Saturation 5 for 5 Seconds."
+    }
+  ]
+}
