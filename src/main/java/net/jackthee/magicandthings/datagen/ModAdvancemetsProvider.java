@@ -8,6 +8,7 @@ import net.jackthee.magicandthings.MagicAndThings;
 import net.jackthee.magicandthings.item.ModItems;
 import net.minecraft.advancement.Advancement;
 import net.minecraft.advancement.AdvancementFrame;
+import net.minecraft.advancement.AdvancementRewards;
 import net.minecraft.advancement.criterion.InventoryChangedCriterion;
 import net.minecraft.item.Items;
 import net.minecraft.text.Text;
