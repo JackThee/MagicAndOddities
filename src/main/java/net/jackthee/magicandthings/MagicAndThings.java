@@ -34,6 +34,6 @@ public class MagicAndThings implements ModInitializer {
 		ModRecipes.RegisterRecipes();
 		ModFeatures.RegisterFeatures();
 		ModSounds.registerSounds();
-		ModEntities.RegisterModEntities();
+
 	}
 }
