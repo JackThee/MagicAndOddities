@@ -11,6 +11,7 @@ import net.jackthee.magicandthings.item.ModItems;
 import net.jackthee.magicandthings.recipe.ModRecipes;
 import net.jackthee.magicandthings.screen.ModScreenHandlers;
 import net.jackthee.magicandthings.sound.ModSounds;
+import net.jackthee.magicandthings.status_effects.ModEffects;
 import net.jackthee.magicandthings.util.ModLootTableModifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -34,6 +35,7 @@ public class MagicAndThings implements ModInitializer {
 		ModRecipes.RegisterRecipes();
 		ModFeatures.RegisterFeatures();
 		ModSounds.registerSounds();
+		ModEffects.register_mod_effects();
 
 	}
 }

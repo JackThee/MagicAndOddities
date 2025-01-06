@@ -21,6 +21,7 @@
   "item.magicandthings.scroll_of_feeding": "Scroll Of Feeding",
   "item.magicandthings.scroll_of_healing": "Scroll Of Healing",
   "item.magicandthings.scroll_of_fury": "Scroll Of Fury",
+  "item.magicandthings.scroll_of_charging": "Scroll Of Charging",
 
   "itemgroup.ruby": "Gems",
   "itemgroup.scroll": "Scrolls",
@@ -42,6 +43,8 @@
 
   "tooltip.magicandthings.jewel_finder": "Finds jewels deep under ground.",
   "tooltip.magicandthings.gem_polishing_station": "Polishes gems for use.",
-  "displayname.magicandthings.gem_polishing_station": "Gem Polishing Station."
+  "displayname.magicandthings.gem_polishing_station": "Gem Polishing Station.",
+
+  "effect.magicandthings.charging": "Charging..."
 
 }

@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "loot": [
+      "magicandthings:grant_book_on_first_join"
+    ]
+  }
+}
+
+

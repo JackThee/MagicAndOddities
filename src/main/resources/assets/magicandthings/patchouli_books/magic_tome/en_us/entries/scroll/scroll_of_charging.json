@@ -1,0 +1,13 @@
+{
+  "name": "Scroll Of Charging",
+  "icon": "magicandthings:scroll_of_charging",
+  "category": "magicandthings:scroll_category",
+  "advancement": "magicandthings:charging_scroll",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "magicandthings:scroll_of_charging"},
+      "text": "Consumes 10xp per use. On use this scroll grants, A Cloud Of Charging 2 Around The User."
+    }
+  ]
+}

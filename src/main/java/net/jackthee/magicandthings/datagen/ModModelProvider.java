@@ -46,6 +46,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SCROLL_OF_FEEDING, Models.GENERATED);
         itemModelGenerator.register(ModItems.SCROLL_OF_HEALING, Models.GENERATED);
         itemModelGenerator.register(ModItems.SCROLL_OF_FURY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SCROLL_OF_CHARGING, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
